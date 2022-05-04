@@ -19,11 +19,11 @@ python ./train_indreg_recon_mri.py --moving-image-dataset cdmri_dataset/dtstp1_m
 # Inference
 
 
-## The code predict_recon_indreg_mri.py is used for predict the indirect registration and  reconstruct MRI images  
+## The code predict_recon_indreg_mri.py is used for predict the indirect registration and reconstruct MRI images  
 ### Example 
 python ./predict_indreg_recon_mri.py --moving-image cdmri_dataset/mv_1.nii  cdmri_dataset/mv_2.nii  cdmri_dataset/mv_3.nii   cdmri_dataset/mv_4.nii  cdmri_dataset/mv_5.nii  cdmri_dataset/mv_6.nii  cdmri_dataset/mv_7.nii  cdmri_dataset/mv_8.nii cdmri_dataset/mv_9.nii  cdmri_dataset/mv_10.nii  cdmri_dataset/mv_11.nii   cdmri_dataset/mv_12.nii  cdmri_dataset/mv_13.nii  cdmri_dataset/mv_14.nii  cdmri_dataset/mv_15.nii  cdmri_dataset/mv_16.nii --target-image  cdmri_dataset/tg_1.nii  cdmri_dataset/tg_2.nii  cdmri_dataset/tg_3.nii  cdmri_dataset/tg_4.nii cdmri_dataset/tg_5.nii  cdmri_dataset/tg_6.nii cdmri_dataset/tg_7.nii cdmri_dataset/tg_8.nii cdmri_dataset/tg_9.nii  cdmri_dataset/tg_10.nii  cdmri_dataset/tg_11.nii  cdmri_dataset/tg_12.nii cdmri_dataset/tg_13.nii  cdmri_dataset/tg_14.nii cdmri_dataset/tg_15.nii cdmri_dataset/tg_16.nii --output-prefix  res/res_d_1   res/res_d_2  res/res_d_3  res/res_d_4 res/res_d_5 res/res_d_6 res/res_d_7 res/res_d_8 res/res_d_9   res/res_d_10  res/res_d_11  res/res_d_12 res/res_d_13 res/res_d_14 res/res_d_15 res/res_d_16  --prediction-parameter  /home/jlliu/indirect_reg_recon_GPUTF_CT_MRI/prediction_mri_005_1s.pth.tar 
 
-## The code predict_recon_indreg_ct.py is used for predict the indirect registration and  reconstruct MRI images   
+## The code predict_recon_indreg_ct.py is used for predict the indirect registration and reconstruct CT images   
 
 
 # Citation
