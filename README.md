@@ -3,8 +3,7 @@
 This repository contains the codes for the paper: Rethinking medical image reconstruction via shape prior, going deeper and faster: Deep joint indirect registration and reconstruction.
 
 # Prepare Data
-
-The quicksilver (https://github.com/rkwitt/quicksilver) was used to generate the momentum.
+The LDDMM was used to generate the momentum as the way in the quicksilver (https://github.com/rkwitt/quicksilver).
 
 # Training 
 
